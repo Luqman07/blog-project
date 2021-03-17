@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid con">
+        <div id="lay" class="overlay"></div>
+
+
+        <!-- Sidenav -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <a href="index.html">Home</a>
+            <div class="dropdown-divider"></div>
+            <a href="#">News</a>
+            <div class="dropdown-divider"></div>
+            <a href="#">Sports</a>
+            <div class="dropdown-divider"></div>
+            <a href="#">Entertainment</a>
+            <div class="dropdown-divider"></div>
+            <a href="#">Politics</a>
+            <div class="dropdown-divider"></div>
+            <a href="#">Business</a>
+            <div class="dropdown-divider"></div>
+
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-white fixed-top shadow mb-3">
+
+            <div class="bar">
+                <button id="btn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#coll"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+            </div>
+            <div class="brand justify-content-center">
+                <h1 class="h2">BLOG</h1>
+            </div>
+
+            <div class="pages">
+                <ul class="navbar-nav collapse navbar-collapse" id="coll">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Entertainment</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Politics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Categories
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <form class="form-inline">
+                <input type="text" class=" bg-white inp" placeholder="Search...">
+                <button class="btn btn-white"><i class="fa fa-search"></i></button>
+            </form>
+
+        </nav>
+
+
+        <!--Main Post-->
+        <div class="container">
+            <div class="card">
+                <img class="card-img-top" src="Images\Chris-Sheff.jpeg" alt="">
+                <div class="card-body p-4">
+                    <h1 class="card-title mb-4 font-weight-bold">
+                        Sheffield United Part Ways with Manager Chris Wilder
+                    </h1>
+                    <p>
+                        Christopher Wilder has left his role as manager of Sheffield United after nearly five years in
+                        charge, with Paul Heckingbottom named interim boss until the end of the season.
+
+                        Wilder, who took over at Bramall Lane in May 2016, held meetings with the board on Friday and
+                        agreed his imminent departure on Saturday afternoon, and it has now been confirmed that his
+                        tenure has come to an end after the two sides failed to reconcile their differences.
+
+                        “Being manager of Sheffield United has been a special journey and one I’ll never forget,” Wilder
+                        told the club’s website.
+
+                        “I was delighted to be given the opportunity back in 2016 and have been delighted with the
+                        success which we have achieved, including two promotions and a highest-ever Premier League
+                        finish.
+
+                        “I’d like to thank everyone who has contributed to the Club’s accomplishments along the way,
+                        including the players, staff and, in particular, the supporters.”
+
+                        Sheffield United chief executive Stephen Bettis said Wilder’s achievements at Bramall Lane will
+                        always be part of the club’s history.
+
+                        “What Chris has done at the club in the last four years will remain in history forever,” he told
+                        the club website.
+
+                        “It’s been an amazing achievement getting us from League One into the Premier League.
+
+                        “We had an amazing season last season which surprised a number of people, especially other teams
+                        within the league. But Chris will always have that and it’s been a great achievement all-round.”
+
+                        Former Leeds United manager Heckingbottom has been in charge of the Blades’ U23 since joining
+                        them last July and will now step up to take over from Wilder until a permanent appointment is
+                        made.
+                    </p>
+                    <small class="h6">March 14 2021 </small>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <footer class=" mt-5 rounded bg-light">
+            <div class="row roww ">
+                <div class="col-md-3">
+                    <h1 class="h2">BLOG</h1>
+                    <p>You can think of tags like Gmail labels.
+                        By tagging posts with one or more keyword,
+                        you can organize.<br><br>
+                        +880-036987458765521<br>
+                        inormation@domain.com</p>
+                </div>
+
+                <div class="col-md-3 cols">
+                    <p class="quick">Quick Links</p>
+                    <div class="">
+                        <a href="">About</a>
+                        <a href="">Career</a>
+                        <a href="">Contact</a>
+                        <a href="">Stories</a>
+                        <a href="">Services</a>
+                        <a href="">Privacy</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <p class="quick">Our Monthly Newsletter</p>
+                    <p>Subscribe Now To Get Daily Updates. You can think of tags like Gmail.
+                        By tag posts with one or more keyword.
+                    </p>
+                    <input class="form-control" type="text"><button
+                        class="btn btn-outline-success">Send</button></input>
+                </div>
+                <div class="col-md-3">
+                    <p class="quick">Contact me</p>
+                    <div class="">
+                        <a class="rounded-circle" href=""><i class="p-1 fa fa-twitter"></i></a>
+                        <a class="rounded-circle" href=""><i class="p-1 fa fa-facebook"></i></a>
+                        <a class="rounded-circle" href=""><i class="p-1 fa fa-instagram"></i></a>
+                        <a class="rounded-circle" href=""><i class="p-1 fa fa-snapchat"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+
+        let lay = document.getElementById('lay')
+        lay.classList.remove('overlay')
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            lay.classList.add('overlay')
+        }
+        btn.addEventListener('click', openNav)
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            lay.classList.remove('overlay')
+        }
+    </script>
+</body>
+
+</html>

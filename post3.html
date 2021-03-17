@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid con">
+        <div id="lay" class="overlay"></div>
+
+
+        <!-- Sidenav -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <a href="index.html">Home</a>
+            <div class="dropdown-divider"></div>
+            <a href="#">News</a>
+            <div class="dropdown-divider"></div>
+            <a href="#">Sports</a>
+            <div class="dropdown-divider"></div>
+            <a href="#">Entertainment</a>
+            <div class="dropdown-divider"></div>
+            <a href="#">Politics</a>
+            <div class="dropdown-divider"></div>
+            <a href="#">Business</a>
+            <div class="dropdown-divider"></div>
+
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-white fixed-top shadow mb-3">
+
+            <div class="bar">
+                <button id="btn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#coll"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+            </div>
+            <div class="brand justify-content-center">
+                <h1 class="h2">BLOG</h1>
+            </div>
+
+            <div class="pages">
+                <ul class="navbar-nav collapse navbar-collapse" id="coll">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Entertainment</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Politics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Categories
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <form class="form-inline">
+                <input type="text" class=" bg-white inp" placeholder="Search...">
+                <button class="btn btn-white"><i class="fa fa-search"></i></button>
+            </form>
+
+        </nav>
+
+
+        <!--Main Post-->
+        <div class="container">
+            <div class="card">
+                <img class="card-img-top" src="Images\schgirls.jpg" alt="">
+                <div class="card-body p-4">
+                    <h1 class="card-title mb-4 font-weight-bold">
+                        BREAKING: One Dead, Two Fatally Wounded as Zamfara Schoolgirls Reunion Turns Bloody
+                    </h1>
+                    <p>
+                        Three people were fatally shot on Wednesday in Zamfara State where the reunion of the schoolgirls with their parents turned violent.
+
+                        At least one of the shot victims was confirmed dead while the other two were fatally injured by the military when locals took up stones and other weapons expressing outrage in Jangebe where government officials had been making “long speeches”.
+                        
+                        ARISE News gathered that many of the parents who had come to be reunited with their children were lamenting on why the process was taking a whole day while they have to travel from Jangebe to their respective Communities.
+                        
+                        Angry locals then invaded the school premises disrupting the process while government officials were making remarks before handing over the students to their parents.
+                        
+                        The Zamfara State Education Commissioner Ibrahim Abdullahi fled the scene immediately the chaos started while vehicles conveying journalists were attacked.
+                        
+                        No journalist was hurt. 
+                    </p>
+                    <small class="h6">March 3 2021 - By Abel  Ejikeme </small>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <footer class=" mt-5 rounded bg-light">
+            <div class="row roww ">
+                <div class="col-md-3">
+                    <h1 class="h2">BLOG</h1>
+                    <p>You can think of tags like Gmail labels.
+                        By tagging posts with one or more keyword,
+                        you can organize.<br><br>
+                        +880-036987458765521<br>
+                        inormation@domain.com</p>
+                </div>
+
+                <div class="col-md-3 cols">
+                    <p class="quick">Quick Links</p>
+                    <div class="">
+                        <a href="">About</a>
+                        <a href="">Career</a>
+                        <a href="">Contact</a>
+                        <a href="">Stories</a>
+                        <a href="">Services</a>
+                        <a href="">Privacy</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <p class="quick">Our Monthly Newsletter</p>
+                    <p>Subscribe Now To Get Daily Updates. You can think of tags like Gmail.
+                        By tag posts with one or more keyword.
+                    </p>
+                    <input class="form-control" type="text"><button
+                        class="btn btn-outline-success">Send</button></input>
+                </div>
+                <div class="col-md-3">
+                    <p class="quick">Contact me</p>
+                    <div class="">
+                        <a class="rounded-circle" href=""><i class="p-1 fa fa-twitter"></i></a>
+                        <a class="rounded-circle" href=""><i class="p-1 fa fa-facebook"></i></a>
+                        <a class="rounded-circle" href=""><i class="p-1 fa fa-instagram"></i></a>
+                        <a class="rounded-circle" href=""><i class="p-1 fa fa-snapchat"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+
+        let lay = document.getElementById('lay')
+        lay.classList.remove('overlay')
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            lay.classList.add('overlay')
+        }
+        btn.addEventListener('click', openNav)
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            lay.classList.remove('overlay')
+        }
+    </script>
+</body>
+</html>
