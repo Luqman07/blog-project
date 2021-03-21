@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,9 +15,10 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container-fluid con">
-        <div id="lay" class="overlay"></div>
+        <div class="lay" class="overlay"></div>
 
 
         <!-- Sidenav -->
@@ -84,25 +86,15 @@
         <!--Main Post-->
         <div class="container">
             <div class="card">
-                <img class="card-img-top" src="Images\schgirls.jpg" alt="">
+                <img id="imP" class="card-img-top" src="" alt="">
                 <div class="card-body p-4">
-                    <h1 class="card-title mb-4 font-weight-bold">
-                        BREAKING: One Dead, Two Fatally Wounded as Zamfara Schoolgirls Reunion Turns Bloody
+                    <h1 id="tiP" class="card-title mb-4 font-weight-bold">
+                     
                     </h1>
-                    <p>
-                        Three people were fatally shot on Wednesday in Zamfara State where the reunion of the schoolgirls with their parents turned violent.
-
-                        At least one of the shot victims was confirmed dead while the other two were fatally injured by the military when locals took up stones and other weapons expressing outrage in Jangebe where government officials had been making “long speeches”.
-                        
-                        ARISE News gathered that many of the parents who had come to be reunited with their children were lamenting on why the process was taking a whole day while they have to travel from Jangebe to their respective Communities.
-                        
-                        Angry locals then invaded the school premises disrupting the process while government officials were making remarks before handing over the students to their parents.
-                        
-                        The Zamfara State Education Commissioner Ibrahim Abdullahi fled the scene immediately the chaos started while vehicles conveying journalists were attacked.
-                        
-                        No journalist was hurt. 
+                    <p id="suP">
+                     
                     </p>
-                    <small class="h6">March 3 2021 - By Abel  Ejikeme </small>
+                    <small class="h6">March 3 2021 - By Abel Ejikeme </small>
                 </div>
 
             </div>
@@ -157,24 +149,15 @@
 
 
     </div>
+    <script src="blog.js"></script>
+    <script src="post.js"></script>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
+   
 
-        let lay = document.getElementById('lay')
-        lay.classList.remove('overlay')
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-            lay.classList.add('overlay')
-        }
-        btn.addEventListener('click', openNav)
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-            lay.classList.remove('overlay')
-        }
-    </script>
 </body>
+
 </html>

@@ -89,12 +89,12 @@ ul li a:hover{
   }
 .sec2 .cad2{
     width: 300px !important;
-    margin-left: 30px;
+    margin-left: 10px;
+   
 }
 .sec2 .contain ul{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    overflow-x: scroll;
     
 }
  
