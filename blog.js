@@ -1,17 +1,23 @@
 $(document).ready(function () {
     
-
     let array = []
-    let lay = $('.lay')
+    let lay = document.getElementById('lay1')
+   
     lay.remove('overlay')
+    $('nav').addClass('border')
+    addEventListener('scroll', ()=>{
+        $('nav').addClass('shadow border')
+    })
     function openNav() {
         document.getElementById("mySidenav").style.width = "250px";
         lay.classList.add('overlay')
+     
     }
     btn.addEventListener('click', openNav)
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
         lay.classList.remove('overlay')
+        
     }
     $('.closebtn').click(closeNav)
 
@@ -43,8 +49,16 @@ $(document).ready(function () {
             // 
             setTimeout(() => {
                 location.href = 'post3.html'
-            }, 700);
+            }, 800);
 
         })
     })
+    // chk.addEventListener('click',()=>{
+    //     if (chk.value == 'on') {
+    //         console.log('Hello')
+    //     }else{
+    //         console.log('HI');
+            
+    //     }
+    // })
 })

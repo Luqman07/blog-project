@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    font-family: 'Roboto', 'cursive';
+}
+.side-nav{
+    position: fixed;
+    height: 100vh;
+    width: 250px;
+    left: 0;
+}
+
+.inCol div a{
+    color: white;
+    padding: 7px;
+    border-bottom: 1px solid #6C757D ;
+
+}
+.m-page{
+    margin-left:250px;
+  
+}
+a:hover{
+    background-color: lightgrey;
+    color: black;
+}
+.down{
+    border-top: 1px solid #6C757D;
+    margin-top: 360px;
+    justify-content: space-around;
+}
+nav{
+    height: 50px;
+    line-height: 50px;
+    box-shadow: 0 0 4px lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.fo{
+    font-size: x-large;
+}
+.dow{
+    box-shadow: 0 0 4px lightgrey;
+}
+ .roo i{
+    color: red;
+    cursor: pointer;
+}
