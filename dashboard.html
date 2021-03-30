@@ -40,8 +40,10 @@
             </div>
             <div class="down d-flex pt-2">
                 <p class="mt-2">Help</p>
+                
                 <div class="bt">
-                    <button class="btn btn-secondary">Log Out</button>
+                    <a class="btn btn-outline-success" href="index.html">Go to site</a> 
+                    <button class="btn btn-outline-danger">Log Out</button>
                 </div>
 
 
@@ -65,8 +67,16 @@
                     <form class="form-group pl-3 pr-3" action="">
                         <input id="tit" class="form-control mb-3" type="text" placeholder="Title">
                         <textarea id="abt" class="form-control mb-3" type="text" placeholder="About"></textarea>
-                        <input id="fil" class="form-control mb-3" type="file" placeholder="">
-                        <input type="button" id="btn" class="btn btn-primary" value="Add Post">
+                        <!-- <input id="fil" class="form-control mb-3" type="file" placeholder=""> -->
+                        <select class="form-control mb-3" id="cat">
+                            <option value="">Choose your category</option>
+                            <option value="News">News</option>
+                            <option value="Sport">Sport</option>
+                            <option value="Entertainment">Entertainment</option>
+                            <option value="Politics">Politics</option>
+                            <option value="Business">Business</option>
+                        </select>
+                        <input type="button" id="btn" class="btnAd btn btn-primary" value="Add Post">
                     </form>
                 </div>
 
@@ -74,8 +84,11 @@
                     <div id="u">
                         <p class="h4">Posts</p>
                         <div id="unsaved"></div>
-                        <div id="res">
-                            <input id="0" type="button" class="btn btn-success mt-2 save" value="Save">
+                        <input id="0" type="button" class="btn btn-success mt-2 save" value="Save">
+                        <hr>
+                        <p class="h4">Saved Post</p>
+                        <div id="saved"></div>
+                           
                         </div>
                     </div>
 
